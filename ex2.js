@@ -27,7 +27,7 @@ function isVowel(char){
     if (char=='a'|| char=='e'||char=='i'||char=='o'||char=='u'){
       return true;
     } else if (char=='y'){
-      return 'sometimes lol';
+      return '~sometimes~';
     } else {
       return false;
     }
@@ -46,8 +46,8 @@ function rovarspraket(phrase){
 // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
 
-function reverse(){
-    //...
+function reverse(string){
+   return string.split("").reverse.join("");
 }
 
 // ---------------------
