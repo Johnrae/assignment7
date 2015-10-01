@@ -38,7 +38,7 @@ function isVowel(char){
 // ---------------------
 
 function rovarspraket(phrase){
-    //...
+  phrase.split('')
 }
 
 
@@ -47,7 +47,7 @@ function rovarspraket(phrase){
 // ---------------------
 
 function reverse(string){
-   return string.split("").reverse.join("");
+   return string.split('').reverse().join('');
 }
 
 // ---------------------
@@ -55,21 +55,30 @@ function reverse(string){
 // ---------------------
 
 function findLongestWord(words){
-    //...
-}
+  return Math.max.apply(0, words.map(
+    function(long){
+      return long.length
+  }));
+};
+
 
 // ---------------------
 // Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
 // ---------------------
 
 function filterLongWords(words, i){
-    //...
-}
+  return words.filter( 
+    function (longWord) {
+      return longWord.length > i;
+  });
+};
 
 // ---------------------
 // Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like charFreq("abbabcbdbabdbdbabababcbcbab").
 // ---------------------
 
 function charFreq(string){
-    //...
+    return string.split('').reduce(
+      function
+    }
 }
