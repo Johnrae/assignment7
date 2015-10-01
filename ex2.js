@@ -38,6 +38,7 @@ function isVowel(char){
 // ---------------------
 
 function rovarspraket(phrase){
+  
   phrase.split('')
 }
 
@@ -78,7 +79,7 @@ function filterLongWords(words, i){
 // ---------------------
 
 function charFreq(string){
-    return string.split('').reduce(
-      function
-    }
-}
+
+
+
+
